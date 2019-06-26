@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    android:gravity="center"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/btn_bg"
+                    android:text="Registration for All User"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <EditText
+                            android:id="@+id/reg_name"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/et_bg"
+                            android:drawableLeft="@drawable/name"
+                            android:drawablePadding="15dp"
+                            android:hint="Name"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/reg_address"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/et_bg"
+                            android:drawableLeft="@drawable/home"
+                            android:drawablePadding="15sp"
+                            android:hint="Address"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/reg_phn_number"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/et_bg"
+                            android:drawableLeft="@drawable/phone"
+                            android:drawablePadding="15sp"
+                            android:hint="Phone Number"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/reg_email"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/et_bg"
+                            android:drawableLeft="@drawable/r_email"
+                            android:drawablePadding="15sp"
+                            android:hint="Email"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="20dp" />
+                        <EditText
+                            android:id="@+id/date_of_birth"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/et_bg"
+                            android:drawableLeft="@drawable/r_email"
+                            android:drawablePadding="15sp"
+                            android:hint="Date of Birth"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="20dp" />
+                        <EditText
+                            android:id="@+id/job_jobless"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/et_bg"
+                            android:drawableLeft="@drawable/r_email"
+                            android:drawablePadding="15sp"
+                            android:hint="Job/jobless"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="20dp" />
+                        <EditText
+                            android:id="@+id/jod_address"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/et_bg"
+                            android:drawableLeft="@drawable/r_email"
+                            android:drawablePadding="15sp"
+                            android:hint="Job Address"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="20dp" />
+                        <EditText
+                        android:id="@+id/start_date"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_bg"
+                        android:drawableLeft="@drawable/r_email"
+                        android:drawablePadding="15sp"
+                        android:hint="Start Time"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="20dp" />
+                        <EditText
+                            android:id="@+id/end_date"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/et_bg"
+                            android:drawableLeft="@drawable/r_email"
+                            android:drawablePadding="15sp"
+                            android:hint="End Time"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="20dp" />
+                        <EditText
+                            android:id="@+id/current_salary"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/et_bg"
+                            android:drawableLeft="@drawable/r_email"
+                            android:drawablePadding="15sp"
+                            android:hint="Current Salary"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/reg_password"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/et_bg"
+                            android:drawableLeft="@drawable/password"
+                            android:drawablePadding="15sp"
+                            android:hint="Password"
+                            android:inputType="numberPassword"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/reg_confirmpass"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/et_bg"
+                            android:drawableLeft="@drawable/password"
+                            android:drawablePadding="15sp"
+                            android:hint="Confirm password"
+                            android:inputType="textPassword"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="20dp" />
+
+                        <Spinner
+                            android:id="@+id/TypeView"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="10dp"
+                            android:autofillHints="Select a type"
+                            android:background="@drawable/et_bg"
+                            android:spinnerMode="dropdown"
+                            android:textSize="22sp"
+                            android:visibility="visible" />
+
+                        <Button
+                            android:id="@+id/Reg_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/btn_bg"
+                            android:text="Registration"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/textViewLinkLogin"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:lines="1"
+                            android:text="@string/text_already_member"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </TableLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

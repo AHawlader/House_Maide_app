@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating to Profile"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        android:textColor="#FF7043"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:theme="@style/RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="7"
+            android:rating="1"
+            android:stepSize="0.5"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/rating_button"
+            android:theme="@style/RatingBar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Rating"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:background="#AB47BC"
+            android:layout_marginTop="10dp"
+
+            />
+    </LinearLayout>
+</LinearLayout>

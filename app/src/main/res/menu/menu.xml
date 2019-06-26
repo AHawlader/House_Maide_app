@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="Navigation_view">
+
+    <group>
+        <item
+            android:title="Review Profile"
+            android:id="@+id/profile_nav"
+            android:icon="@drawable/ic_comment"
+            >
+
+        </item>
+        <item
+            android:title="Servent Profile"
+            android:id="@+id/profile_servent"
+            android:icon="@drawable/ic_person_black_24dp"
+            >
+
+        </item>
+    </group>
+
+</menu>
